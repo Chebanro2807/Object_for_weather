@@ -10,10 +10,6 @@ Weather.prototype.removeClouds = function () {
     this.condition = 'sun'
 }
 
-
-
-
-
 const kyivWeather = new Weather('Kiev', {temp_c: 12, condition: 'clouds'});
 const Lviv = new Weather('Lviv')
 document.body.innerHTML = kyivWeather.temp_c; // выведет в консоль температуру
